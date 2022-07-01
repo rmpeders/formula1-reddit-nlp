@@ -2,7 +2,7 @@
 
 ### Problem Statement
 
-Reddit is a social media website with the added benefit of finding those with similar interests. Afterall, there is a subreddit for everything. When posting, it can be difficult to know which subreddit to post to because they can get very specific. In this project, a classification model will be built to predict which subreddit a comment/post came from. This can be used when comments may be taken out of context or if somebody wants to choose the correct subreddit to post on. 
+Reddit is a social media website with the added benefit of finding those with similar interests. Afterall, there is a subreddit for everything. When posting, it can be difficult to know which subreddit to post to because they can get very specific. In this project, a classification model will be built to predict which subreddit a comment/post came from. This can be used when comments may be taken out of context or if somebody wants to choose the correct subreddit to post on. In this case it can be used to show whether or not the post/comment was meme related.
 
 ### Background (From [GA Project Prompt](https://git.generalassemb.ly/DSIR-523/project-3))
 
