@@ -43,7 +43,7 @@ Each model was put through a grid search to find the best hyperparameters.
 
 There were 2 models each for both comments and titles, one including user flair as a feature, and one without. The user flair was added as an additional feature to help guide the model in a significant way, as shown below: 
 
-![](./images/model_metrics.png)
+![](./images/model_metrics.PNG)
 
 There is a drastic difference in test accuracy when comparing the models with user flairs as a feature to those without (20-30%). This is because the flairs are quite unique to each subreddit. The other notable value is the random forest model's training accuracy. Random forests are notoriously overfit, however, the random forest model resulted in the highest test accuracy for the data so it was chosen in that case. 
 
