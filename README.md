@@ -47,7 +47,7 @@ There were 2 models each for both comments and titles, one including user flair 
 
 There is a drastic difference in test accuracy when comparing the models with user flairs as a feature to those without (20-30%). This is because the flairs are quite unique to each subreddit. The other notable value is the random forest model's training accuracy. Random forests are notoriously overfit, however, the random forest model resulted in the highest test accuracy for the data so it was chosen in that case. 
 
-The most common flair was no flair, accounting for around 18% of the data. No flair was also much more common among the formula1 subreddit as opposed to formuladank. 
+Using only flairs, we actually achieved a higher accuracy than when adding text from the comments and titles. This indicates that it is definitely the best indicator of which subreddit a post came from. The most common flair was no flair, accounting for around 18% of the data. No flair was also much more common among the formula1 subreddit as opposed to formuladank. 
 
 We do not care in this case about metrics other than accuracy as misclassification one way or the other generally is not relevant. Below are the confusion matrices:
 
